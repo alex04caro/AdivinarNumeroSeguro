@@ -64,21 +64,6 @@ java -jar Ejecutable.jar
 - `Servidor.java`: Implementa el servidor seguro.
 - `Cliente.java`: Implementa el cliente seguro.
 
-### Estructura de Carpetas
-AdivinarNumeroSeguro/
-├── src/
-│   ├── Main.java
-│   ├── Servidor.java
-│   ├── Cliente.java
-├── claves/
-│   ├── keystore.jks
-│   ├── truststore.jks
-│   ├── servidor.cer
-├── doc/
-│   └── index.html (y demás archivos generados por Javadoc)
-├── Ejecutable.jar
-├── README.md
-
 
 ### Requisitos de Seguridad
 - Los archivos `keystore.jks` y `truststore.jks` deben estar en la carpeta `claves/`.
